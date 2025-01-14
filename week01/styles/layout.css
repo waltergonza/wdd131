@@ -11,7 +11,7 @@
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
       "header header"
-      "nav nav"
+      "header header"
       "main aside"
       "footer footer";
     height: 100vh;
@@ -22,14 +22,20 @@
     background-color: #333;
     color: white;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  
+  .header-content {
+    margin-bottom: 30px;
+    font-size: 18px;
   }
   
   .nav {
-    grid-area: nav;
     background-color: black;
-    color: white;
+    width: 100%;
+    padding: 1rem;
   }
   
   .nav ul {
