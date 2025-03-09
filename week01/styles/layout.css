@@ -14,6 +14,10 @@ header {
     
 }
 
+p {
+    padding: 10px;
+}
+
 .navbar {
     margin-top: auto;
     
@@ -61,8 +65,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 2rem; 
+    padding: 10px; 
     grid-column:  1 / 4;
-    height: 15px;
+    
     
 }
