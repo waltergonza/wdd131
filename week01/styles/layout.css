@@ -63,6 +63,6 @@ footer {
     text-align: center;
     padding: 2rem; 
     grid-column:  1 / 4;
-    height: 80px;
+    
     max-height: fit-content;
 }
