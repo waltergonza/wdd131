@@ -10,9 +10,10 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
-    height: 130px;
+    height: 145px;
 
 }
+
 
 p {
     padding: 10px;
