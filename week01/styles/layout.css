@@ -1,17 +1,17 @@
 * {
     margin: 0;
-    padding: 0;   
-    
+    padding: 0;
+
 }
 
 header {
-    
+
     background-color: rgb(89, 87, 87);
     color: white;
     display: flex;
     flex-direction: column;
-    height: 100px;
-    
+    height: 130px;
+
 }
 
 p {
@@ -20,7 +20,7 @@ p {
 
 .navbar {
     margin-top: auto;
-    
+
 }
 
 
@@ -38,12 +38,12 @@ p {
     padding: 10px;
     text-decoration: none;
     display: block;
-    
+
 }
 
 .principal {
     display: grid;
-    min-height: 83.9vh; 
+    min-height: 83.9vh;
     grid-template-columns: auto;
     grid-template-rows: auto 80px;
 
@@ -65,8 +65,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px; 
-    grid-column:  1 / 4;
-    
-    
+    padding: 10px;
+    grid-column: 1 / 4;
+
+
 }
