@@ -44,9 +44,9 @@ p {
 
 .principal {
     display: grid;
-    min-height: 83.9vh;
+    min-height: 78vh;
     grid-template-columns: auto;
-    grid-template-rows: auto 80px;
+   
 
 }
 
@@ -67,7 +67,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    grid-column: 1 / 4;
-
+    
 
 }
