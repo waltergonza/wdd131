@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    color: #222;
+}
+
+/* HEADER */
+
+header {
+    background-color: #0f4c81;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #ffd700;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+/* GRID CARDS */
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+/* CARD */
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card h2 {
+    background-color: #0f4c81;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ABOUT SECTION */
+
+.about-content {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.profile-image {
+    width: 180px;
+    border-radius: 8px;
+}
+
+/* COUNTRY SECTION */
+
+.country-section {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.country-section h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.country-content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.flag {
+    width: 150px;
+    border: 1px solid #999;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* RESOURCES */
+
+.resources {
+    padding: 2rem;
+    line-height: 2;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0f4c81;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+#lastModified {
+    color: yellow;
+    margin-top: 0.5rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content,
+    .country-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
